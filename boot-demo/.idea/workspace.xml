@@ -50,9 +50,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response11.json" root0="SKIP_INSPECTION" />
-  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -68,7 +65,14 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="osc" />
+      </list>
     </option>
   </component>
   <component name="ProjectId" id="1UvFIkS0uXuLvIZ5DeBkz1x7kBL" />
@@ -94,24 +98,20 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.331996" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.fulong.bootdemo.service" />
-      <recent name="cn.fulong.bootdemo.dao" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.fulong.bootdemo.controller" />
       <recent name="cn.fulong.bootdemo.config" />
@@ -122,12 +122,16 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.fulong.bootdemo.controller" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/news" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates/movies" />
-      <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.fulong.bootdemo.entity" />
@@ -136,9 +140,9 @@
       <recent name="cn.fulong.bootdemo.utils" />
       <recent name="cn.fulong.bootdemo.controller.gentelella" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.fulong.bootdemo.service" />
+      <recent name="cn.fulong.bootdemo.dao" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -674,9 +678,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.BootDemoApplication" />
       <item itemvalue="Application.UuidUtils" />
       <item itemvalue="Application.MaoYanUtils" />
+      <item itemvalue="Spring Boot.BootDemoApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -780,6 +784,7 @@
       <workItem from="1585987345651" duration="18118000" />
       <workItem from="1586614842517" duration="101000" />
       <workItem from="1586619178307" duration="29010000" />
+      <workItem from="1587196318067" duration="871000" />
     </task>
     <servers />
   </component>
@@ -829,25 +834,25 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="191" y="169" width="1200" height="637" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1585998030362" />
-    <state width="1398" height="161" key="GridCell.Tab.0.bottom" timestamp="1587194304506">
+    <state width="1398" height="301" key="GridCell.Tab.0.bottom" timestamp="1587196562098">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="161" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587194304506" />
+    <state width="1398" height="301" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587196562098" />
     <state width="1398" height="332" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586964187702" />
-    <state width="1398" height="161" key="GridCell.Tab.0.center" timestamp="1587194304505">
+    <state width="1398" height="301" key="GridCell.Tab.0.center" timestamp="1587196562096">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="161" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587194304505" />
+    <state width="1398" height="301" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587196562096" />
     <state width="1398" height="332" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586964187701" />
-    <state width="1398" height="161" key="GridCell.Tab.0.left" timestamp="1587194304504">
+    <state width="1398" height="301" key="GridCell.Tab.0.left" timestamp="1587196562096">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="161" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587194304504" />
+    <state width="1398" height="301" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587196562096" />
     <state width="1398" height="332" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586964187700" />
-    <state width="1398" height="161" key="GridCell.Tab.0.right" timestamp="1587194304505">
+    <state width="1398" height="301" key="GridCell.Tab.0.right" timestamp="1587196562097">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="161" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587194304505" />
+    <state width="1398" height="301" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587196562097" />
     <state width="1398" height="332" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586964187701" />
     <state width="1398" height="161" key="GridCell.Tab.1.bottom" timestamp="1587194304508">
       <screen x="0" y="0" width="1440" height="900" />
@@ -894,10 +899,10 @@
     </state>
     <state x="246" y="82" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1586621639444" />
     <state x="246" y="103" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1586009849663" />
-    <state x="32" y="55" key="SettingsEditor" timestamp="1586878982407">
+    <state x="160" y="54" key="SettingsEditor" timestamp="1587196581518">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="32" y="55" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586878982407" />
+    <state x="160" y="54" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587196581518" />
     <state x="754" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1586619179410">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
