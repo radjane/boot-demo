@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.fulong.bootdemo.dao.MovieDao">
+
+
+    <!--   select sys_user数据 手动分页    -->
+<!--    <select id="selectUsersByMyPageHelper" resultType="cn.fulong.bootdemo.entity.SysUser">-->
+<!--        select * from SYS_USER-->
+<!--        <if test="offset != null and limit != null">-->
+<!--            limit #{offset}, #{limit}-->
+<!--        </if>-->
+<!--    </select>-->
+
+    <!-- select sys_user数据  pageHelper 分页-->
+<!--    <select id="selectUsersByPageHelper" resultType="cn.fulong.bootdemo.entity.SysUser">-->
+    <!--            select * from SYS_USER-->
+    <!--    </select>-->
+
+    <!--      insert 一条数据  -->
+    <insert id="insertDouBanMovies" useGeneratedKeys="true" keyProperty="id">
+        insert into MOVIE
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                username,
+            </if>
+            <if test="password != null">
+                password,
+            </if>
+            <if test="email != null">
+                email,
+            </if>
+            <if test="phone != null">
+                phone,
+            </if>
+            <if test="age != null">
+                age,
+            </if>
+            <if test="name != null">
+                name,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                #{username},
+            </if>
+            <if test="password != null">
+                #{password},
+            </if>
+            <if test="email != null">
+                #{email},
+            </if>
+            <if test="phone != null">
+                #{phone},
+            </if>
+            <if test="age != null">
+                #{age},
+            </if>
+            <if test="name != null">
+                #{name},
+            </if>
+        </trim>
+    </insert>
+
+
+    <!--  insert 多个数据  -->
+    <insert id="insertMovies" useGeneratedKeys="true" keyProperty="id">
+        insert into douban_movie
+        (rating,ranks,cover_url,is_playable,movie_id,types,regions,title,url,release_date,actor_count,vote_count,score,actors,is_watched)
+        values
+        <foreach item="item" collection="list" separator=",">
+            (
+            #{item.rating},#{item.ranks},#{item.coverUrl},#{item.isPlayable},#{item.movieId},#{item.types},
+            #{item.regions},#{item.title},#{item.url},#{item.releaseDate},#{item.actorCount},#{item.voteCount},#{item.score},
+            #{item.actors},#{item.isWatched}
+            )
+        </foreach>
+    </insert>
+
+    <!--    top250电影-->
+    <insert id="insertDouBanMoviesTop250">
+        insert into douban_movie_top250
+        (
+        movie_id,movie_name,movie_director,movie_year,momvie_cover_url,movie_rating,movie_rating_num,
+        movie_recommendation,movie_index,movie_subject_url
+        ) values
+        <foreach item="item" collection="list" separator=",">
+            (
+            #{item.movieId},#{item.movieName},#{item.movieDirector},#{item.movieYear},#{item.momvieCoverUrl},#{item.movieRating},
+            #{item.movieRatingNum},#{item.movieRecommendation},#{item.movieIndex},#{item.movieSubjectUrl}
+            )
+        </foreach>
+    </insert>
+
+    <!-- 电影评论-->
+    <insert id="insertDouBanMovieComments" useGeneratedKeys="true" keyProperty="id">
+        insert into douban_movie_comment
+        (
+        data_cid,movie_id,comment_person,comment_short,comment_vote,rating,comment_time,if_rating,if_watched
+        ) values
+        <foreach item="item" collection="list" separator=",">
+            (
+            #{item.dataCid},#{item.movieId},#{item.commentPerson},#{item.commentShort},#{item.commentVote},
+            #{item.rating},#{item.commentTime},#{item.ifRating},#{item.ifWatched}
+            )
+        </foreach>
+    </insert>
+
+
+    <!-- 电影日票房信息详情-->
+    <insert id="insertMaoYanDayBoxOfficeMovie" useGeneratedKeys="true" keyProperty="id">
+        insert into mao_yan_day_box_office_movie
+        (
+        avg_seat_view,
+        avg_view_box,
+        box_info,
+        box_rate,
+        milestone_box,
+        milestone_box_copy,
+        milestone_date_time,
+        milestone_expire_timestamp,
+        milestone_image_url,
+        milestone_movie_id,
+        movie_id,
+        movie_name,
+        my_refund_num_info,
+        my_refund_rate_info,
+        online_box_rate,
+        refund_view_info,
+        refund_view_rate,
+        release_info,
+        release_info_color,
+        seat_rate,
+        show_info,
+        show_rate,
+        split_avg_view_box,
+        split_box_info,
+        split_box_rate,
+        split_sum_box_info,
+        sum_box_info,
+        view_info,
+        view_info_v2,
+        server_time,
+        yyyymmdd
+        ) values
+        <foreach item="item" collection="list" separator=",">
+            (
+            #{item.avgSeatView},
+            #{item.avgViewBox},
+            #{item.boxInfo},
+            #{item.boxRate},
+            #{item.milestoneBox},
+            #{item.milestoneBoxCopy},
+            #{item.milestoneDateTime, jdbcType=TIMESTAMP},
+            #{item.milestoneExpireTimestamp, jdbcType=TIMESTAMP},
+            #{item.milestoneImageUrl},
+            #{item.milestoneMovieId},
+            #{item.movieId},
+            #{item.movieName},
+            #{item.myRefundNumInfo},
+            #{item.myRefundRateInfo},
+            #{item.onlineBoxRate},
+            #{item.refundViewInfo},
+            #{item.refundViewRate},
+            #{item.releaseInfo},
+            #{item.releaseInfoColor},
+            #{item.seatRate},
+            #{item.showInfo},
+            #{item.showRate},
+            #{item.splitAvgViewBox},
+            #{item.splitBoxInfo},
+            #{item.splitBoxRate},
+            #{item.splitSumBoxInfo},
+            #{item.sumBoxInfo},
+            #{item.viewInfo},
+            #{item.viewInfoV2},
+            #{item.serverTime, jdbcType=TIMESTAMP},
+            #{item.yyyymmdd}
+            )
+        </foreach>
+    </insert>
+
+
+    <!-- 插入电影日票房信息 list -->
+    <insert id="insertMaoYanDayBoxOffice" useGeneratedKeys="true" keyProperty="id">
+        insert into mao_yan_day_box_office
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            update_info,
+            total_box_unit_info,
+            split_total_box,
+            server_timestamp,
+            <if test="crystalMaoyanViewInfo !=null">
+                crystal_maoyan_view_info,
+            </if>
+            <if test="crystalViewInfo !=null">
+                crystal_view_info,
+            </if>
+            <if test="crystalViewUnitInfo !=null">
+                crystal_view_unit_info,
+            </if>
+            total_box_info,
+            total_box_unit,
+            total_box,
+            split_total_box_unit,
+            query_date,
+            server_time,
+            split_total_box_unit_info,
+            split_total_box_info,
+            yyyymmdd
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            #{updateInfo},
+            #{totalBoxUnitInfo},
+            #{splitTotalBox},
+            #{serverTimestamp,jdbcType=TIMESTAMP},
+            <if test="crystalMaoyanViewInfo !=null">
+                #{crystalMaoyanViewInfo},
+            </if>
+            <if test="crystalViewInfo !=null">
+                #{crystalViewInfo},
+            </if>
+            <if test="crystalViewUnitInfo !=null">
+                #{crystalViewUnitInfo},
+            </if>
+            #{totalBoxInfo},
+            #{totalBoxUnit},
+            #{totalBox},
+            #{splitTotalBoxUnit},
+            #{queryDate},
+            #{serverTime},
+            #{splitTotalBoxUnitInfo},
+            #{splitTotalBoxInfo},
+            #{yyyymmdd},
+        </trim>
+
+    </insert>
+
+
+    <!--    查询日票房影片  等于某一天  -->
+    <select id="selectMaoYanDayBoxOfficeMovieEqYmd" resultType="MaoYanDayBoxOfficeMovie">
+        select * from mao_yan_day_box_office_movie t
+        where  t.yyyymmdd = #{startYmd}
+    </select>
+
+
+    <!--    查询日票房数据 大于某一天  -->
+    <select id="selectMaoYanDayBoxOfficesGteYmd" resultType="MaoYanDayBoxOffice">
+        select * from mao_yan_day_box_office t
+        where CAST(t.yyyymmdd AS SIGNED) >= #{param1}
+        order by t.yyyymmdd desc
+    </select>
+
+
+    <!--    查询日票房数据 等于某一天 -->
+    <select id="selectMaoYanDayBoxOfficeEqYmd"  resultType="MaoYanDayBoxOffice">
+        select * from mao_yan_day_box_office t
+        where CAST(t.yyyymmdd AS SIGNED) = #{param1}
+    </select>
+
+
+</mapper>
+

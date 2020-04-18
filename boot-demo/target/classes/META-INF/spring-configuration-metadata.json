@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "spring.mail",
+      "type": "cn.fulong.bootdemo.config.EmailConfig",
+      "sourceType": "cn.fulong.bootdemo.config.EmailConfig"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

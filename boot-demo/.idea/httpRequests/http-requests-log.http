@@ -1,0 +1,82 @@
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow?partner_id=web
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-15T122424.200.json
+
+###
+
+GET https://gateway.36kr.com/api/mis/nav/newsflash/flow?action=doo_player_ajax&post=7172&nume=1&type=tv&b_id=&partnerId=web
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-15T122323.500.html
+
+###
+
+GET https://gateway.36kr.com/api/mis/nav/newsflash/flow?action=doo_player_ajax&post=7172&nume=1&type=tv&b_id=
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-15T122222.500.html
+
+###
+
+GET https://36kr.com/pp/api/newsflash?action=doo_player_ajax&post=7172&nume=1&type=tv&b_id=
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-15T122138.200.json
+
+###
+
+POST https://36kr.com/pp/api/newsflash?action=doo_player_ajax&post=7172&nume=1&type=tv&b_id=
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-15T122131.404.html
+
+###
+
+POST https://watch.biyov.com/wp-admin/admin-ajax.php?action=doo_player_ajax&post=7172&nume=1&type=tv
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST https://watch.biyov.com/wp-admin/admin-ajax.php?action=doo_player_ajax&post=7172&nume=1&type=tv
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+HEAD https://watch.biyov.com/wp-admin/admin-ajax.php?action=doo_player_ajax&post=7172&nume=1&type=tv
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET https://watch.biyov.com/wp-admin/admin-ajax.php?action=doo_player_ajax&post=7172&nume=1&type=tv
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST https://watch.biyov.com/wp-admin/admin-ajax.php?action=doo_player_ajax&post=7172&nume=1&type=tv
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST https://watch.biyov.com/wp-admin/admin-ajax.php?action=doo_player_ajax&post=7172&nume=1&type=tv
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST https://watch.biyov.com/wp-admin/admin-ajax.php?action=doo_player_ajax&post=7172&nume=1&type=tv
+Accept: */*
+Cache-Control: no-cache
+
+###
+

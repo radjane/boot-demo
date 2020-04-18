@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e69d40b7-dfaf-46e4-b2d5-a64088be86f6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="just4fun@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="boot-demo" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response11.json" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.1/libexec" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UvFIkS0uXuLvIZ5DeBkz1x7kBL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.splitter.proportion" value="0.331996" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.fulong.bootdemo.service" />
+      <recent name="cn.fulong.bootdemo.dao" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.fulong.bootdemo.controller" />
+      <recent name="cn.fulong.bootdemo.config" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.fulong.bootdemo.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/news" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/movies" />
+      <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.fulong.bootdemo.entity" />
+      <recent name="cn.fulong.bootdemo.service.impl" />
+      <recent name="cn.fulong.bootdemo.controller" />
+      <recent name="cn.fulong.bootdemo.utils" />
+      <recent name="cn.fulong.bootdemo.controller.gentelella" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1617541838000" />
+                <option name="domain" value="watch.biyov.com" />
+                <option name="name" value="starstruck_a6fbc7750dd272f3dbd5fc004e24e262" />
+                <option name="path" value="/" />
+                <option name="value" value="2bff03c367f776954821dc781207fb2a" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="36kr.com" />
+                <option name="name" value="acw_tc" />
+                <option name="path" value="/" />
+                <option name="value" value="2760829b15868812809717763ea5eb5c39da8272c1d5228dcc1759d6dfd8d5" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1586888487000" />
+                <option name="domain" value="36kr.com" />
+                <option name="name" value="M-XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="ffbb727914c22b7989fab019c89fca9c371fe8c9728e40d99e84107308661df0" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1586888487000" />
+                <option name="domain" value="36kr.com" />
+                <option name="name" value="krnewsfrontss" />
+                <option name="path" value="/" />
+                <option name="value" value="c5e8f16ea44995d3985004626532f9f6" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="gateway.36kr.com" />
+                <option name="name" value="acw_tc" />
+                <option name="path" value="/" />
+                <option name="value" value="2760829215868813313844974e0e99b13b105e8e528f295f44b73cc59fd670" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://gateway.36kr.com" />
+          <option name="urlPath" value="/api/mis/nav/newsflash/flow" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="partner_id" />
+                <option name="value" value="web" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1617541838000" />
+                <option name="domain" value="watch.biyov.com" />
+                <option name="name" value="starstruck_a6fbc7750dd272f3dbd5fc004e24e262" />
+                <option name="path" value="/" />
+                <option name="value" value="2bff03c367f776954821dc781207fb2a" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="36kr.com" />
+                <option name="name" value="acw_tc" />
+                <option name="path" value="/" />
+                <option name="value" value="2760829b15868812809717763ea5eb5c39da8272c1d5228dcc1759d6dfd8d5" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1586888487000" />
+                <option name="domain" value="36kr.com" />
+                <option name="name" value="M-XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="ffbb727914c22b7989fab019c89fca9c371fe8c9728e40d99e84107308661df0" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1586888487000" />
+                <option name="domain" value="36kr.com" />
+                <option name="name" value="krnewsfrontss" />
+                <option name="path" value="/" />
+                <option name="value" value="c5e8f16ea44995d3985004626532f9f6" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="gateway.36kr.com" />
+                <option name="name" value="acw_tc" />
+                <option name="path" value="/" />
+                <option name="value" value="2760829215868813313844974e0e99b13b105e8e528f295f44b73cc59fd670" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://gateway.36kr.com" />
+          <option name="urlPath" value="/api/mis/nav/newsflash/flow" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="action" />
+                <option name="value" value="doo_player_ajax" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="post" />
+                <option name="value" value="7172" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="nume" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="type" />
+                <option name="value" value="tv" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="b_id" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="partnerId" />
+                <option name="value" value="web" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1617541838000" />
+                <option name="domain" value="watch.biyov.com" />
+                <option name="name" value="starstruck_a6fbc7750dd272f3dbd5fc004e24e262" />
+                <option name="path" value="/" />
+                <option name="value" value="2bff03c367f776954821dc781207fb2a" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="36kr.com" />
+                <option name="name" value="acw_tc" />
+                <option name="path" value="/" />
+                <option name="value" value="2760829b15868812809717763ea5eb5c39da8272c1d5228dcc1759d6dfd8d5" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1586888487000" />
+                <option name="domain" value="36kr.com" />
+                <option name="name" value="M-XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="ffbb727914c22b7989fab019c89fca9c371fe8c9728e40d99e84107308661df0" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1586888487000" />
+                <option name="domain" value="36kr.com" />
+                <option name="name" value="krnewsfrontss" />
+                <option name="path" value="/" />
+                <option name="value" value="c5e8f16ea44995d3985004626532f9f6" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://gateway.36kr.com" />
+          <option name="urlPath" value="/api/mis/nav/newsflash/flow" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="action" />
+                <option name="value" value="doo_player_ajax" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="post" />
+                <option name="value" value="7172" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="nume" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="type" />
+                <option name="value" value="tv" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="b_id" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1617541838000" />
+                <option name="domain" value="watch.biyov.com" />
+                <option name="name" value="starstruck_a6fbc7750dd272f3dbd5fc004e24e262" />
+                <option name="path" value="/" />
+                <option name="value" value="2bff03c367f776954821dc781207fb2a" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="36kr.com" />
+                <option name="name" value="acw_tc" />
+                <option name="path" value="/" />
+                <option name="value" value="2760829b15868812809717763ea5eb5c39da8272c1d5228dcc1759d6dfd8d5" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://36kr.com" />
+          <option name="urlPath" value="/pp/api/newsflash" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="action" />
+                <option name="value" value="doo_player_ajax" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="post" />
+                <option name="value" value="7172" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="nume" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="type" />
+                <option name="value" value="tv" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="b_id" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1617541838000" />
+                <option name="domain" value="watch.biyov.com" />
+                <option name="name" value="starstruck_a6fbc7750dd272f3dbd5fc004e24e262" />
+                <option name="path" value="/" />
+                <option name="value" value="2bff03c367f776954821dc781207fb2a" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://36kr.com" />
+          <option name="urlPath" value="/pp/api/newsflash" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="action" />
+                <option name="value" value="doo_player_ajax" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="post" />
+                <option name="value" value="7172" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="nume" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="type" />
+                <option name="value" value="tv" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="b_id" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1617541838000" />
+                <option name="domain" value="watch.biyov.com" />
+                <option name="name" value="starstruck_a6fbc7750dd272f3dbd5fc004e24e262" />
+                <option name="path" value="/" />
+                <option name="value" value="2bff03c367f776954821dc781207fb2a" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://watch.biyov.com" />
+          <option name="urlPath" value="/wp-admin/admin-ajax.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="action" />
+                <option name="value" value="doo_player_ajax" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="post" />
+                <option name="value" value="7172" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="nume" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="type" />
+                <option name="value" value="tv" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1617541838000" />
+                <option name="domain" value="watch.biyov.com" />
+                <option name="name" value="starstruck_a6fbc7750dd272f3dbd5fc004e24e262" />
+                <option name="path" value="/" />
+                <option name="value" value="2bff03c367f776954821dc781207fb2a" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://watch.biyov.com" />
+          <option name="urlPath" value="/wp-admin/admin-ajax.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="action" />
+                <option name="value" value="doo_player_ajax" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="post" />
+                <option name="value" value="7172" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="nume" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="type" />
+                <option name="value" value="tv" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://watch.biyov.com" />
+          <option name="urlPath" value="/wp-admin/admin-ajax.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="action" />
+                <option name="value" value="doo_player_ajax" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="post" />
+                <option name="value" value="7172" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="nume" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="type" />
+                <option name="value" value="tv" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BootDemoApplication">
+    <configuration name="MaoYanUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.fulong.bootdemo.utils.MaoYanUtils" />
+      <module name="boot-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.fulong.bootdemo.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UuidUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.fulong.bootdemo.utils.UuidUtils" />
+      <module name="boot-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.fulong.bootdemo.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.fulong.bootdemo.BootDemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.BootDemoApplication" />
+      <item itemvalue="Application.UuidUtils" />
+      <item itemvalue="Application.MaoYanUtils" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MaoYanUtils" />
+        <item itemvalue="Application.UuidUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.13075237" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:just4fun@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:just4fun@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@6652da61" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e69d40b7-dfaf-46e4-b2d5-a64088be86f6" name="Default Changelist" comment="" />
+      <created>1561821498877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561821498877</updated>
+      <workItem from="1561821500099" duration="47027000" />
+      <workItem from="1562502377018" duration="2610000" />
+      <workItem from="1562509046168" duration="40508000" />
+      <workItem from="1562837632331" duration="1555000" />
+      <workItem from="1562932299557" duration="5100000" />
+      <workItem from="1563355595785" duration="2679000" />
+      <workItem from="1563460616680" duration="5778000" />
+      <workItem from="1563532219012" duration="8633000" />
+      <workItem from="1563612856832" duration="6939000" />
+      <workItem from="1564025120634" duration="31209000" />
+      <workItem from="1564123998268" duration="1756000" />
+      <workItem from="1564146649242" duration="1067000" />
+      <workItem from="1564156343863" duration="68000" />
+      <workItem from="1564242467131" duration="1859000" />
+      <workItem from="1564256197600" duration="393000" />
+      <workItem from="1564470259356" duration="1685000" />
+      <workItem from="1564630592612" duration="2890000" />
+      <workItem from="1565799370707" duration="963000" />
+      <workItem from="1565801834119" duration="1015000" />
+      <workItem from="1566370473208" duration="866000" />
+      <workItem from="1567879017936" duration="288000" />
+      <workItem from="1568023753466" duration="112000" />
+      <workItem from="1568024500861" duration="939000" />
+      <workItem from="1569848820631" duration="6216000" />
+      <workItem from="1570011898344" duration="35934000" />
+      <workItem from="1570209533893" duration="12755000" />
+      <workItem from="1570433523709" duration="36571000" />
+      <workItem from="1570630186861" duration="87285000" />
+      <workItem from="1571022497548" duration="21000" />
+      <workItem from="1571022834490" duration="10658000" />
+      <workItem from="1571402735195" duration="2319000" />
+      <workItem from="1571717762710" duration="1161000" />
+      <workItem from="1572004704215" duration="48661000" />
+      <workItem from="1573203633769" duration="13603000" />
+      <workItem from="1573537266168" duration="3069000" />
+      <workItem from="1574072407053" duration="5176000" />
+      <workItem from="1574333784295" duration="366000" />
+      <workItem from="1574421522757" duration="1683000" />
+      <workItem from="1574493603820" duration="574000" />
+      <workItem from="1574670578596" duration="464000" />
+      <workItem from="1574684929123" duration="1118000" />
+      <workItem from="1574733498612" duration="601000" />
+      <workItem from="1574736911137" duration="1309000" />
+      <workItem from="1574843595945" duration="6517000" />
+      <workItem from="1575530511659" duration="4087000" />
+      <workItem from="1576229085429" duration="584000" />
+      <workItem from="1576810068234" duration="1479000" />
+      <workItem from="1580699579900" duration="65000" />
+      <workItem from="1580699702851" duration="51000" />
+      <workItem from="1580702915678" duration="494000" />
+      <workItem from="1581681691892" duration="318000" />
+      <workItem from="1581860345804" duration="684000" />
+      <workItem from="1583314506269" duration="3818000" />
+      <workItem from="1585987345651" duration="18118000" />
+      <workItem from="1586614842517" duration="101000" />
+      <workItem from="1586619178307" duration="29010000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="437" y="217" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1586620861522">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="217" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1440.900@0.0.1440.900" timestamp="1586620861522" />
+    <state x="154" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586879053697">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="154" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586879053697" />
+    <state x="156" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1586148914034" />
+    <state x="244" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586621174663">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="244" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1586621174663" />
+    <state x="486" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1586621001770">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="486" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900@0.0.1440.900" timestamp="1586621001770" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586670827439">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1586670827439" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586961334673">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1586961334673" />
+    <state x="501" y="163" key="#xdebugger.evaluate" timestamp="1585991322402">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="501" y="163" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1585991322402" />
+    <state width="530" height="466" key="DebuggerActiveHint" timestamp="1585998316407">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="530" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1585998316407" />
+    <state x="191" y="169" width="1200" height="637" key="DiffContextDialog" timestamp="1585998030362">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="191" y="169" width="1200" height="637" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1585998030362" />
+    <state width="1398" height="161" key="GridCell.Tab.0.bottom" timestamp="1587194304506">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="161" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587194304506" />
+    <state width="1398" height="332" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586964187702" />
+    <state width="1398" height="161" key="GridCell.Tab.0.center" timestamp="1587194304505">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="161" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587194304505" />
+    <state width="1398" height="332" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586964187701" />
+    <state width="1398" height="161" key="GridCell.Tab.0.left" timestamp="1587194304504">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="161" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587194304504" />
+    <state width="1398" height="332" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586964187700" />
+    <state width="1398" height="161" key="GridCell.Tab.0.right" timestamp="1587194304505">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="161" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587194304505" />
+    <state width="1398" height="332" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586964187701" />
+    <state width="1398" height="161" key="GridCell.Tab.1.bottom" timestamp="1587194304508">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="161" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587194304508" />
+    <state width="1189" height="164" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586881174903" />
+    <state width="1398" height="161" key="GridCell.Tab.1.center" timestamp="1587194304507">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="161" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587194304507" />
+    <state width="1189" height="164" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586881174902" />
+    <state width="1398" height="161" key="GridCell.Tab.1.left" timestamp="1587194304507">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="161" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587194304507" />
+    <state width="1189" height="164" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586881174901" />
+    <state width="1398" height="161" key="GridCell.Tab.1.right" timestamp="1587194304508">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="161" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587194304508" />
+    <state width="1189" height="164" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586881174902" />
+    <state width="1398" height="189" key="GridCell.Tab.2.bottom" timestamp="1586964459263">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="189" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586964459263" />
+    <state width="1189" height="164" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586881174905" />
+    <state width="1398" height="189" key="GridCell.Tab.2.center" timestamp="1586964459262">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="189" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1586964459262" />
+    <state width="1189" height="164" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1586881174904" />
+    <state width="1398" height="189" key="GridCell.Tab.2.left" timestamp="1586964459261">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="189" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1586964459261" />
+    <state width="1189" height="164" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1586881174903" />
+    <state width="1398" height="189" key="GridCell.Tab.2.right" timestamp="1586964459263">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="189" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1586964459263" />
+    <state width="1189" height="164" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1586881174904" />
+    <state x="246" y="82" key="Maven.ArtifactSearchDialog" timestamp="1586621639444">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="246" y="82" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1586621639444" />
+    <state x="246" y="103" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1586009849663" />
+    <state x="32" y="55" key="SettingsEditor" timestamp="1586878982407">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="32" y="55" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586878982407" />
+    <state x="754" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1586619179410">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="754" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1586619179410" />
+    <state x="114" y="97" width="1040" height="667" key="find.popup" timestamp="1586671286140">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="114" y="97" width="1040" height="667" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1586671286140" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586881356585">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586881356585" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/cn/fulong/bootdemo/config/DataSourceConfigTest.java</url>
+          <line>29</line>
+          <properties class="cn.fulong.bootdemo.config.DataSourceConfigTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/cn/fulong/bootdemo/utils/RedisUtilsTest.java</url>
+          <line>29</line>
+          <properties class="cn.fulong.bootdemo.utils.RedisUtilsTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/cn/fulong/bootdemo/utils/RedisUtilsTest.java</url>
+          <line>19</line>
+          <properties class="cn.fulong.bootdemo.utils.RedisUtilsTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/interceptor/UserInterceptor.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/data/DataServiceImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/data/DataServiceImpl.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/data/DataServiceImpl.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/data/DataServiceImpl.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/controller/email/EmailController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/controller/user/UserController.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/user/UserServiceImpl.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/controller/user/UserController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/user/UserServiceImpl.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/user/UserServiceImpl.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/user/UserServiceImpl.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/controller/movie/MovieController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/HttpClientUtils.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/movie/MovieServiceImpl.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/HttpClientUtils.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/HttpClientUtils.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/HttpClientUtils.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/movie/MovieServiceImpl.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/movie/MovieServiceImpl.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/DouBanUtils.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/movie/MovieServiceImpl.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/DouBanUtils.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/DouBanUtils.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/DouBanUtils.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/DouBanUtils.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/DouBanUtils.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/DouBanUtils.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/movie/MovieServiceImpl.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/movie/MovieServiceImpl.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/movie/MovieServiceImpl.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/entity/MaoYanDayBoxOfficeMovie.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/movie/MovieServiceImpl.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/movie/MovieServiceImpl.java</url>
+          <line>208</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/movie/MovieServiceImpl.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/movie/MovieServiceImpl.java</url>
+          <line>198</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/MaoYanUtils.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/MaoYanUtils.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/MaoYanUtils.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/MaoYanUtils.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/news/Kr36NewsFlashServiceImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/controller/movie/MovieController.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/controller/email/EmailController.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/controller/email/EmailController.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/controller/email/EmailController.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/BiyovMovieUtils.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/BiyovMovieUtils.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/BiyovMovieUtils.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/BiyovMovieUtils.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/BiyovMovieUtils.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/BiyovMovieUtils.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/BiyovMovieUtils.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/news/Kr36NewsFlashServiceImpl.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/service/impl/news/Kr36NewsFlashServiceImpl.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/utils/Kr36Utils.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/controller/user/UserController.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/fulong/bootdemo/config/MvcConfig.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/static/js/index.js</url>
+          <line>46</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/templates/news/kr36_news_flashes1.html</url>
+          <line>109</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="f.exists()" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="element.getElementsByClass(&quot;comment&quot;).get(0).getElementsByTag(&quot;span&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/boot_demo$BiyovMovieUtils.ic" NAME="BiyovMovieUtils Coverage Results" MODIFIED="1585993483773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.fulong.bootdemo.utils.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/boot_demo$DataSourceConfigTest_firstDataSource.ic" NAME="DataSourceConfigTest.firstDataSource Coverage Results" MODIFIED="1562134445449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.fulong.bootdemo.config.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Gentelella Alela! | </title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/webjars/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/webjars/gentelella/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/webjars/gentelella/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/webjars/gentelella/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+
+    <!-- PNotify -->
+    <link th:href="@{/webjars/gentelella/1.4.0/vendors/pnotify/dist/pnotify.css}" rel="stylesheet">
+    <link th:href="@{/webjars/gentelella/1.4.0/vendors/pnotify/dist/pnotify.buttons.css}" rel="stylesheet">
+    <link th:href="@{/webjars/gentelella/1.4.0/vendors/pnotify/dist/pnotify.nonblock.css}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link th:href="@{/webjars/gentelella/build/css/custom.min.css}" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+<div class="container body">
+    <div class="main_container">
+        <div class="col-md-3 left_col">
+            <div class="left_col scroll-view">
+                <div class="navbar nav_title" style="border: 0;">
+                    <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <!-- menu profile quick info -->
+                <div th:replace="commons/menu_profile::menuProfile"></div>
+                <!-- /menu profile quick info -->
+                <br/>
+
+                <!-- sidebar menu -->
+                <div th:replace="commons/menu_sidebar::menuSidebar"></div>
+                <!-- /sidebar menu -->
+
+                <!-- /menu footer buttons -->
+                <div th:replace="commons/menu_footer::menuFooter"></div>
+                <!-- /menu footer buttons -->
+            </div>
+        </div>
+
+        <!-- top navigation  start-->
+        <div th:replace="commons/menu_nav::menuNav"></div>
+        <!-- /top navigation end-->
+
+        <!-- page content  start-->
+        <div class="right_col" role="main">
+            <div class="">
+                <div class="page-title">
+                    <div class="title_left">
+                        <h3>电影票房
+                            <!-- <small>猫眼-实时票房</small>-->
+                        </h3>
+                    </div>
+                    <form action="/table/tables" th:action="@{/movie/boxMovies}" method="post" id="tableFormId">
+                        <div class="title_right">
+                            <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                                <div class="input-group">
+                                    <input type="text" name="startYmd" id="startYmd" class="form-control"
+                                           placeholder="Search for...">
+                                    <span class="input-group-btn">
+                                      <button class="btn btn-default" type="button" onclick="doSubimt()">Go!</button>
+                                </span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="x_panel" style="height: auto;">
+                            <div class="x_title">
+                                <h2>文章-[(${startYmd})]期
+                                    <small th:if=" ${dayBoxOfficeData !=null}">
+                                        采集时间:[(${dayBoxOfficeData.serverTime})]
+                                    </small>
+                                </h2>
+                                <ul class="nav navbar-right panel_toolbox">
+                                    <!--    采集即时数据-->
+                                    <li><a th:data-id="${lastDay}"
+                                           onclick="lastDay(this,this.getAttribute('data-id'))">
+                                        <i class="fa  fa-chevron-left"></i></a></li>
+                                    <li><a th:data-id="${nextDay}"
+                                           onclick="nextDay(this,this.getAttribute('data-id'))">
+                                        <i class="fa  fa-chevron-right"></i></a></li>
+                                    <li><a th:data-id="${startYmd}"
+                                            onclick="doCollectionMovies(this.getAttribute('data-id'))"><i class="fa fa-cloud-download"></i></a>
+                                    </li>
+                                    <li><a class="collapse-link"><i class="fa fa-chevron-down"></i></a>
+                                    </li>
+                                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content" th:if="${movies!=null && movies.size()>0}">
+                                <table class="table table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th colspan="13">
+                                            据猫眼实时票房统计，
+                                            [[${startYmd}]]票房数据为:
+                                            综合票房 [(${dayBoxOfficeData.totalBoxInfo+dayBoxOfficeData.totalBoxUnitInfo})]，
+                                            售出电影票[(${dayBoxOfficeData.crystalViewInfo+dayBoxOfficeData.crystalViewUnitInfo})]，
+                                            统计[(${movies.size()})]部影片，以下数据按单日票房高低排列：
+                                        </th>
+                                    </tr>
+                                    <!--                                    <tr>-->
+                                    <!--                                        <th>排名</th>-->
+                                    <!--                                        <th>影片</th>-->
+                                    <!--                                        <th>票房</th>-->
+                                    <!--                                        <th>观影人次</th>-->
+                                    <!--                                        <th>上座率</th>-->
+                                    <!--                                        <th>影片上映天数</th>-->
+                                    <!--                                        <th>电影总票房</th>-->
+                                    <!--                                    </tr>-->
+                                    </thead>
+                                    <tbody id="movieTableTbody">
+                                    <tr th:each="movie,movieStat:${movies}">
+                                        <th scope="row" th:text="'第'+${movieStat.index+1}+'位'">1</th>
+                                        <td th:text="'《'+${movie.movieName}+'》'">Mark</td>
+                                        <td th:text="'票房'+${movie.boxInfo}+'万'">Otto</td>
+                                        <td th:text="'观影人次'+${movie.viewInfoV2}">Mark</td>
+                                        <td th:text="'上座率'+${movie.avgSeatView}">Mark</td>
+                                        <td th:text="${movie.releaseInfo}">@mdo</td>
+                                        <td th:text="'电影总票房'+${movie.sumBoxInfo}">Mark</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="13">
+                                            以上就是今天的票房数据，如果你喜欢请点赞支持一下，
+                                            感谢您的阅读，欢迎明天再来！
+                                        </th>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="x_panel" style="height: auto;">
+                            <div class="x_title">
+                                <h2>猫眼-实时票房
+                                    <small>数据</small>
+                                </h2>
+                                <ul class="nav navbar-right panel_toolbox">
+                                    <!--    采集即时数据-->
+                                    <li><a th:data-id="${lastDay}"
+                                           onclick="lastDay(this,this.getAttribute('data-id'))">
+                                        <i class="fa  fa-chevron-left"></i></a></li>
+                                    <li><a th:data-id="${nextDay}"
+                                           onclick="nextDay(this,this.getAttribute('data-id'))">
+                                        <i class="fa  fa-chevron-right"></i></a></li>
+                                    <li><a th:data-id="${startYmd}"
+                                           onclick="doCollectionMovies(this.getAttribute('data-id'))"><i class="fa fa-cloud-download"></i></a>
+                                    </li>                                    </li>
+                                    <li><a class="collapse-link"><i class="fa fa-chevron-down"></i></a>
+                                    </li>
+                                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content" th:if="${movies!=null && movies.size()>0}">
+                                <table class="table table-bordered" id="movieTable">
+                                    <thead>
+                                    <tr>
+                                        <th colspan="13"
+                                            id="movieTableDate"
+                                            style="text-align: center; font-size: xx-large; "
+                                            th:text="${movies.get(0).getYyyymmdd()}"></th>
+                                    </tr>
+                                    <tr>
+                                        <th>排名</th>
+                                        <th>影片</th>
+                                        <th>票房</th>
+                                        <th>影片上映天数</th>
+                                        <th>电影总票房</th>
+                                        <th>票房占比</th>
+                                        <th>平均上座率</th>
+                                        <th>平均上座人次</th>
+                                        <th>排座占比</th>
+                                        <th>排片场次</th>
+                                        <th>排片占比</th>
+                                        <th>人次</th>
+                                        <th>分账平均票价</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr th:each="movie,movieStat:${movies}">
+                                        <th scope="row" th:text="${movieStat.index+1}">1</th>
+                                        <td th:text="${movie.movieName}">Mark</td>
+                                        <td th:text="${movie.boxInfo}">Otto</td>
+                                        <td th:text="${movie.releaseInfo}">@mdo</td>
+                                        <td th:text="${movie.sumBoxInfo}">Mark</td>
+                                        <td th:text="${movie.boxRate}">Otto</td>
+                                        <td th:text="${movie.avgSeatView}">@mdo</td>
+                                        <td th:text="${movie.avgViewBox}">@mdo</td>
+                                        <td th:text="${movie.seatRate}">@mdo</td>
+                                        <td th:text="${movie.showInfo}">@mdo</td>
+                                        <td th:text="${movie.showRate}">@mdo</td>
+                                        <td th:text="${movie.viewInfoV2}">@mdo</td>
+                                        <td th:text="${movie.splitAvgViewBox}">@mdo</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /page content end-->
+
+
+    <!-- footer content start-->
+    <div th:replace="commons/content_footer::contentFooter"></div>
+    <!-- /footer content end-->
+</div>
+
+</div>
+<!-- jQuery -->
+<script th:src="@{/webjars/gentelella/vendors/jquery/dist/jquery.min.js}"></script>
+<!-- Bootstrap -->
+<script th:src="@{/webjars/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js}"></script>
+<!-- FastClick -->
+<script th:src="@{/webjars/gentelella/vendors/fastclick/lib/fastclick.js}"></script>
+<!-- NProgress -->
+<script th:src="@{/webjars/gentelella/vendors/nprogress/nprogress.js}"></script>
+<!-- iCheck -->
+<script th:src="@{/webjars/gentelella/vendors/iCheck/icheck.min.js}"></script>
+
+<!-- PNotify -->
+<script th:src="@{/webjars/gentelella/1.4.0/vendors/pnotify/dist/pnotify.js}"></script>
+<script th:src="@{/webjars/gentelella/1.4.0/vendors/pnotify/dist/pnotify.buttons.js}"></script>
+<script th:src="@{/webjars/gentelella/1.4.0/vendors/pnotify/dist/pnotify.nonblock.js}"></script>
+
+<!-- Custom Theme Scripts -->
+<script th:src="@{/webjars/gentelella/build/js/custom.min.js}"></script>
+
+<script th:src="@{/js/tables.js}"></script>
+<script th:src="@{/js/index.js(v=7)}"></script>
+<script>
+    function lastDay(obj, day) {
+        $('#startYmd').val(day);
+        $('#tableFormId').submit();
+    }
+
+    function nextDay(obj, day) {
+        $('#startYmd').val(day);
+        $('#tableFormId').submit();
+    }
+</script>
+</body>
+</html>

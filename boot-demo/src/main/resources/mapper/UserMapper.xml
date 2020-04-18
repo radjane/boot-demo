@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.fulong.bootdemo.dao.UserDao" >
+
+    <!-- SQL 片段 -->
+    <sql id="BASE_TABLE_NAME">
+      SYS_USER
+    </sql>
+
+    <sql id="BASE_TABLE_COLUMN">
+        id,username,password,email,phone,age,name
+    </sql>
+
+
+    <!--   select sys_user数据 手动分页    -->
+    <select id="selectUsersByMyPageHelper" resultType="cn.fulong.bootdemo.entity.SysUser" >
+        select * from SYS_USER
+        <if test="offset != null and limit != null">
+            limit #{offset}, #{limit}
+        </if>
+    </select>
+
+    <!-- select sys_user数据  pageHelper 分页-->
+    <select id="selectUsersByPageHelper" resultType="cn.fulong.bootdemo.entity.SysUser">
+        select * from SYS_USER
+    </select>
+
+    <!--  insert 一条数据  -->
+    <insert id="insertSysUser" useGeneratedKeys="true" keyProperty="id" >
+        insert into SYS_USER
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                username,
+            </if>
+            <if test="password != null">
+                password,
+            </if>
+            <if test="email != null">
+                email,
+            </if>
+            <if test="phone != null">
+                phone,
+            </if>
+            <if test="age != null">
+                age,
+            </if>
+            <if test="name != null">
+                name,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                #{username},
+            </if>
+            <if test="password != null">
+                #{password},
+            </if>
+            <if test="email != null">
+                #{email},
+            </if>
+            <if test="phone != null">
+                #{phone},
+            </if>
+            <if test="age != null">
+                #{age},
+            </if>
+            <if test="name != null">
+                #{name},
+            </if>
+        </trim>
+
+    </insert>
+
+
+    <!--  insert 多个数据  -->
+    <insert id="insertSysUsers" useGeneratedKeys="true" keyProperty="id" >
+        insert into SYS_USER (username,password,email,phone,age,name) values
+        <foreach item="item" collection="list" separator=",">
+            ( #{item.username},#{item.password},#{item.email},#{item.phone},#{item.age},#{item.name} )
+        </foreach>
+    </insert>
+
+    <!--   delete 一条数据  -->
+    <delete id="deleteSysUserById">
+        delete from SYS_USER t where t.id = #{userId}
+    </delete>
+
+    <!--    update 一条数据-->
+    <update id="updateSysUserById" parameterType="cn.fulong.bootdemo.entity.SysUser">
+        update SYS_USER
+        <set>
+            <if test="user.username != null"> username=#{user.username},</if>
+            <if test="user.password != null"> password=#{user.password},</if>
+            <if test="user.email != null">    email=#{user.email},</if>
+            <if test="user.phone != null">    phone=#{user.phone},</if>
+            <if test="user.age != null">      age=#{user.age},</if>
+            <if test="user.name != null">     name=#{user.name},</if>
+        </set>
+        where  id = #{userId}
+    </update>
+
+    <!--    int delSysUsersByArr(String[] arr);-->
+    <delete id="delSysUsersByArr" >
+        delete  from sys_user where id = #{array[0]}
+    </delete>
+
+    <!--    int delSysUsersByList(List<String> list);-->
+    <delete id="delSysUsersByList">
+        delete  from sys_user where id = #{list[0]}
+    </delete>
+
+    <select id="selectUserByNameAndPhone" resultType="cn.fulong.bootdemo.entity.SysUser">
+      select * from SYS_USER t where t.username like #{username} and t.phone=#{param2.phone}
+    </select>
+
+
+    <!--    查询一条数据    -->
+    <select id="selectUserById" parameterType="int" resultType="SysUser">
+        select
+        <include refid="BASE_TABLE_COLUMN"></include>
+        from
+        <include refid="BASE_TABLE_NAME"></include>
+        where id = #{userId}
+    </select>
+
+
+    <select id="selectUserByUsernameAndPassword" resultType="cn.fulong.bootdemo.entity.SysUser">
+      select * from SYS_USER t where t.username = #{username} and t.password=#{password}
+    </select>
+
+
+</mapper>
+

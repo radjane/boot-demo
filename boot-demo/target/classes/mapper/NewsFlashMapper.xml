@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.fulong.bootdemo.dao.Kr36NewsFlashDao">
+
+
+    <!--36氪快讯插入-->
+    <insert id="insertKr36NewsFlashes" useGeneratedKeys="true" keyProperty="id">
+        insert into kr36_news_flash
+        (
+        b_id,
+        title,
+        title_length,
+        description,
+        news_url,
+        published_at,
+        user_name,
+        user_id,
+        user_avatar_url,
+        yyyymmdd,
+        server_time,
+        news_type,
+        news_source
+        ) values
+        <foreach item="item" collection="list" separator=",">
+            (
+            #{item.bId},
+            #{item.title},
+            #{item.titleLength},
+            #{item.description},
+            #{item.newsUrl},
+            #{item.publishedAt, jdbcType=TIMESTAMP},
+            #{item.userName},
+            #{item.userId},
+            #{item.userAvatarUrl},
+            #{item.yyyymmdd},
+            #{item.serverTime, jdbcType=TIMESTAMP},
+            #{item.newsType},
+            #{item.newsSource}
+            )
+        </foreach>
+    </insert>
+
+
+    <!--36氪快讯表格列表-->
+    <select id="selectKr36NewsFlashes1" resultType="Kr36NewsFlash">
+        select * from kr36_news_flash t
+        where  t.yyyymmdd = #{startYmd}
+        order by t.news_type asc
+    </select>
+
+
+    <!--36氪快讯时间节点列表-->
+    <select id="selectKr36NewsFlashes2" resultType="Kr36NewsFlash">
+        select * from kr36_news_flash t
+        where  t.yyyymmdd = #{startYmd}
+        order by t.published_at desc
+    </select>
+
+    <!--36氪快讯最大BID-->
+    <select id="selectMaxBid" resultType="int">
+        select max(b_id) as maxBid from kr36_news_flash t order by t.b_id desc
+    </select>
+
+    <!--36氪快讯最小BID-->
+    <select id="selectMinBid" resultType="int">
+        select min(b_id) as maxBid from kr36_news_flash t order by t.b_id asc
+    </select>
+
+
+    <!--    查询日票房影片 时间区间  -->
+    <select id="selectKr36NewsFlashes3" resultType="Kr36NewsFlash">
+        select * from kr36_news_flash t
+        where CAST(t.yyyymmdd AS SIGNED) &gt;= #{param1} and CAST(t.yyyymmdd AS SIGNED) &lt;= #{param2}
+        order by t.news_type asc,t.published_at desc
+    </select>
+
+
+    <!--    查询日票房影片 大于某个时间 -->
+    <select id="selectKr36NewsFlashes4" resultType="Kr36NewsFlash">
+        select * from kr36_news_flash t
+        where CAST(t.yyyymmdd AS SIGNED) >= #{param1}
+        order by t.yyyymmdd desc
+    </select>
+
+    <!--36氪快讯 更新-->
+    <update id="updateKr36NewsFlashes" parameterType="Kr36NewsFlash">
+        UPDATE kr36_news_flash
+        <trim prefix="set" suffixOverrides=",">
+            <if test="bId!=null">b_id=#{bId},</if>
+            <if test="title!=null">title=#{title},</if>
+            <if test="titleLength!=null">title_length=#{titleLength},</if>
+            <if test="description!=null">description=#{description},</if>
+            <if test="newsUrl!=null">news_url=#{newsUrl},</if>
+            <if test="userName!=null">user_name=#{userName},</if>
+            <if test="userId!=null">user_id=#{userId},</if>
+            <if test="userAvatarUrl!=null">user_avatar_url=#{userAvatarUrl},</if>
+            <if test="yyyymmdd!=null">yyyymmdd=#{yyyymmdd},</if>
+            <if test="newsType!=null">news_type=#{newsType},</if>
+            <if test="newsSource!=null">news_source=#{newsSource},</if>
+        </trim>
+        WHERE b_id=#{bId}
+    </update>
+
+</mapper>
+
