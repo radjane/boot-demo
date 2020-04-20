@@ -114,6 +114,9 @@
       select * from SYS_USER t where t.username like #{username} and t.phone=#{param2.phone}
     </select>
 
+    <select id="selectUserByName" resultType="cn.fulong.bootdemo.entity.SysUser">
+      select * from SYS_USER t where t.username = #{username}
+    </select>
 
     <!--    查询一条数据    -->
     <select id="selectUserById" parameterType="int" resultType="SysUser">

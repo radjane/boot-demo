@@ -1,5 +1,118 @@
+############################ 开发环境 #######33
+# 项目名 和端口
+server:
+  servlet:
+    # 项目名 默认/
+    context-path: /boot-demo
+  # 端口 默认8080
+  port: 8888
+  #  mybatis配置
+  # 设置session超时时间
+  server:
+    servlet:
+      session:
+        timeout: 3600s
+
+
+
+mybatis:
+  #各个xml 路径
+  mapper-locations: classpath:/mapper/*.xml
+  #mybatis配置文件
+  config-location:  classpath:/mybatis-config.xml
+  # 实体包路径
+  type-aliases-package: cn.fulong.bootdemo.entity
+
+
+# 分页插件
+mapper:
+  mappers:
+    - tk.mybatis.springboot.util.MyMapper
+  not-empty: false
+  identity: MYSQL
+
+# 分页插件
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+
+
+#数据库连接
 spring:
-  application:
-    name: springboot-profile
-  profiles:
-    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/just4fun
+    type: com.alibaba.druid.pool.DruidDataSource
+    # 初始化大小，最小，最大
+    initialSize: 1
+    minIdle: 3
+    maxActive: 20
+    # 配置获取连接等待超时的时间
+    maxWait: 60000
+    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    timeBetweenEvictionRunsMillis: 60000
+    # 配置一个连接在池中最小生存的时间，单位是毫秒
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    # 打开PSCache，并且指定每个连接上PSCache的大小
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat,wall,slf4j
+    # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    # 合并多个DruidDataSource的监控数据
+    #useGlobalDataSourceStat: true
+
+  # 配置模版
+  thymeleaf:
+    # 页面热部署 IDEA中按下ctrl + shift + F9 键重新编译 右键重新编译页面
+    cache: false
+    mvc:
+      static-path-pattern: /static/**
+  #  配置redis
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    #Redis数据库索引（默认为0）
+    database: 0
+    jedis:
+      pool:
+        #连接池最大连接数（使用负值表示没有限制）
+        max-active: 50
+        #连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: 30000
+        #连接池中的最大空闲连接
+        max-idle: 20
+        #连接池中的最小空闲连接
+        min-idle: 2
+    #连接超时时间（毫秒）
+    timeout: 5000
+  mail:
+    host: smtp.163.com
+    port: 25
+    username: 18701559738@163.com
+    password: guo19940522
+
+
+# 打印sql
+logging:
+  level:
+    cn.fulong.bootdemo.dao: debug
+
+
+# 个人配置
+my:
+  config:
+    upload-file: /Users/xiaobei/mine/upload_file
+
+# 是否开启 debug模式
+#debug: true

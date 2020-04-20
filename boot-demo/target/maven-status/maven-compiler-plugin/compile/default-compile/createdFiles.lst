@@ -18,6 +18,7 @@ cn/fulong/bootdemo/dao/MovieDao.class
 cn/fulong/bootdemo/config/MvcConfig.class
 cn/fulong/bootdemo/service/EmailService.class
 cn/fulong/bootdemo/config/RedisConfig.class
+cn/fulong/bootdemo/r/R.class
 cn/fulong/bootdemo/entity/MaoYanDayBoxOfficeInfo.class
 cn/fulong/bootdemo/service/UserService.class
 cn/fulong/bootdemo/interceptor/UserInterceptor.class
@@ -30,6 +31,7 @@ cn/fulong/bootdemo/dao/Kr36NewsFlashDao.class
 cn/fulong/bootdemo/controller/home/HomeController.class
 cn/fulong/bootdemo/utils/RedisUtils.class
 cn/fulong/bootdemo/entity/HeroInfo.class
+cn/fulong/bootdemo/enums/ResultCodeEnum.class
 cn/fulong/bootdemo/utils/DouBanUtils.class
 cn/fulong/bootdemo/controller/news/NewsController.class
 cn/fulong/bootdemo/BootDemoApplication.class
@@ -54,4 +56,5 @@ cn/fulong/bootdemo/dao/UserDao.class
 cn/fulong/bootdemo/entity/SysUser.class
 cn/fulong/bootdemo/utils/DateUtils.class
 cn/fulong/bootdemo/service/MovieService.class
+cn/fulong/bootdemo/vo/LoginVo.class
 cn/fulong/bootdemo/entity/Kr36NewsFlash.class

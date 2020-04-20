@@ -1,3 +1,265 @@
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{param={"pageCallback":"eyJmaXJzdElkIjo2NzIxNTY5OTc0NzQzMTEsImxhc3RJZCI6NjcxNjI3NzM5MjQwNzA0LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyOTcyMDczNjUsImxhc3RDcmVhdGVUaW1lIjoxNTg3MjY0OTA0MDA2fQ","pageEvent":0,"pageSize":30,"platformId":2,"siteId":1}, timestamp=1587311480888, partner_id=web}
+
+<> 2020-04-19T115214.500.html
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{ 	"partner_id": "web", 	"timestamp": 1587304987324, 	"param": { 		"pageSize": 3000, 		"pageEvent": 0, 		"pageCallback": "eyJmaXJzdElkIjo2NzIxNTY5OTc0NzQzMTEsImxhc3RJZCI6NjcxNjI3NzM5MjQwNzA0LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyOTcyMDczNjUsImxhc3RDcmVhdGVUaW1lIjoxNTg3MjY0OTA0MDA2fQ", 		"siteId": 1, 		"platformId": 2 	} }
+
+<> 2020-04-19T114448.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{ 	"partner_id": "web", 	"timestamp": 1587304987324, 	"param": { 		"pageSize": 3000, 		"pageEvent": 0, 		"pageCallback": "eyJmaXJzdElkIjo2NzIxNTY5OTc0NzQzMTEsImxhc3RJZCI6NjcxNjI3NzM5MjQwNzA0LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyOTcyMDczNjUsImxhc3RDcmVhdGVUaW1lIjoxNTg3MjY0OTA0MDA2fQ", 		"siteId": 1, 		"platformId": 2 	} }
+
+<> 2020-04-19T114123.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{ 	"partner_id": "web", 	"timestamp": 1587304987324, 	"param": { 		"pageSize": 3000, 		"pageEvent": 0, 		"pageCallback": "eyJmaXJzdElkIjo2NzIxNTY5OTc0NzQzMTEsImxhc3RJZCI6NjcxNjI3NzM5MjQwNzA0LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyOTcyMDczNjUsImxhc3RDcmVhdGVUaW1lIjoxNTg3MjY0OTA0MDA2fQ", 		"siteId": 1, 		"platformId": 2 	} }
+
+<> 2020-04-19T105826.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{ 	"partner_id": "web", 	"timestamp": 1587304987324, 	"param": { 		"pageSize": 4000, 		"pageEvent": 0, 		"pageCallback": "eyJmaXJzdElkIjo2NzIxNTY5OTc0NzQzMTEsImxhc3RJZCI6NjcxNjI3NzM5MjQwNzA0LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyOTcyMDczNjUsImxhc3RDcmVhdGVUaW1lIjoxNTg3MjY0OTA0MDA2fQ", 		"siteId": 1, 		"platformId": 2 	} }
+
+<> 2020-04-19T105716.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{"partner_id":"web","timestamp":1587304987324,"param":{"pageSize":2000,"pageEvent":0,"pageCallback":"eyJmaXJzdElkIjo2NzIxNTY5OTc0NzQzMTEsImxhc3RJZCI6NjcxNjI3NzM5MjQwNzA0LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyOTcyMDczNjUsImxhc3RDcmVhdGVUaW1lIjoxNTg3MjY0OTA0MDA2fQ","siteId":1,"platformId":2}}
+
+<> 2020-04-19T105202.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{"partner_id":"web","timestamp":1587304987324,"param":{"pageSize":2000,"pageEvent":0,"pageCallback":"eyJmaXJzdElkIjo2NzIxNTY5OTc0NzQzMTEsImxhc3RJZCI6NjcxNjI3NzM5MjQwNzA0LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyOTcyMDczNjUsImxhc3RDcmVhdGVUaW1lIjoxNTg3MjY0OTA0MDA2fQ","siteId":1,"platformId":2}}
+
+<> 2020-04-19T101233.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{"partner_id":"web","timestamp":1587304987324,"param":{"pageSize":20,"pageEvent":0,"pageCallback":"eyJmaXJzdElkIjo2NzIxNTY5OTc0NzQzMTEsImxhc3RJZCI6NjcxNjI3NzM5MjQwNzA0LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyOTcyMDczNjUsImxhc3RDcmVhdGVUaW1lIjoxNTg3MjY0OTA0MDA2fQ","siteId":1,"platformId":2}}
+
+<> 2020-04-19T100925.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{"partner_id":"web","timestamp":1587304987324,"param":{"pageSize":20,"pageEvent":2,"pageCallback":"eyJmaXJzdElkIjo2NzIxNTY5OTc0NzQzMTEsImxhc3RJZCI6NjcxNjI3NzM5MjQwNzA0LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyOTcyMDczNjUsImxhc3RDcmVhdGVUaW1lIjoxNTg3MjY0OTA0MDA2fQ","siteId":1,"platformId":2}}
+
+<> 2020-04-19T100847.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{"partner_id":"web","timestamp":1587304987324,"param":{"pageSize":20,"pageEvent":1,"pageCallback":"eyJmaXJzdElkIjo2NzIxNTY5OTc0NzQzMTEsImxhc3RJZCI6NjcxNjI3NzM5MjQwNzA0LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyOTcyMDczNjUsImxhc3RDcmVhdGVUaW1lIjoxNTg3MjY0OTA0MDA2fQ","siteId":1,"platformId":2}}
+
+<> 2020-04-19T100757.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{"partner_id":"web","timestamp":1587304518928,"param":{"pageSize":20,"pageEvent":1,"pageCallback":"","siteId":1,"platformId":2}}
+
+<> 2020-04-19T100110.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{"partner_id":"web","timestamp":1587304518928,"param":{"pageSize":20,"pageEvent":1,"pageCallback":"eyJmaXJzdElkIjo2NzIxNTY5OTc0NzQzMTEsImxhc3RJZCI6NjcxNjI3NzM5MjQwNzA0LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyOTcyMDczNjUsImxhc3RDcmVhdGVUaW1lIjoxNTg3MjY0OTA0MDA2fQ","siteId":1,"platformId":2}}
+
+<> 2020-04-19T095634.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{ 	"partner_id": "web", 	"timestamp": 1587304518928, 	"param": { 		"pageSize": 5, 		"pageEvent": 1, 		"pageCallback": "eyJmaXJzdElkIjo2NzA1MDE3ODU5ODMyMzQsImxhc3RJZCI6NjcwMDk3MDQ5NDA5NTM4LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcxOTYxODEyNzMsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTcxNDc4MTEzfQ", 		"siteId": 1, 		"platformId": 2 	} }
+
+<> 2020-04-19T095554.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{ 	"partner_id": "web", 	"timestamp": 1587304113000, 	"param": { 		"pageSize": 5, 		"pageEvent": 1, 		"pageCallback": "eyJmaXJzdElkIjo2NzA1MDE3ODU5ODMyMzQsImxhc3RJZCI6NjcwMDk3MDQ5NDA5NTM4LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcxOTYxODEyNzMsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTcxNDc4MTEzfQ", 		"siteId": 1, 		"platformId": 2 	} }
+
+<> 2020-04-19T095436.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{ 	"partner_id": "web", 	"timestamp": 1587304113000, 	"param": { 		"pageSize": 200, 		"pageEvent": 1, 		"pageCallback": "eyJmaXJzdElkIjo2NzA1MDE3ODU5ODMyMzQsImxhc3RJZCI6NjcwMDk3MDQ5NDA5NTM4LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcxOTYxODEyNzMsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTcxNDc4MTEzfQ", 		"siteId": 1, 		"platformId": 2 	} }
+
+<> 2020-04-19T094941.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{ 	"partner_id": "web", 	"timestamp": 1587303139498, 	"param": { 		"pageSize": 200, 		"pageEvent": 1, 		"pageCallback": "eyJmaXJzdElkIjo2NzA1MDE3ODU5ODMyMzQsImxhc3RJZCI6NjcwMDk3MDQ5NDA5NTM4LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcxOTYxODEyNzMsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTcxNDc4MTEzfQ", 		"siteId": 1, 		"platformId": 2 	} }
+
+<> 2020-04-19T094050.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{"partner_id":"web","timestamp":1587303139498,"param":{"pageSize":20,"pageEvent":1,"pageCallback":"eyJmaXJzdElkIjo2NzA1MDE3ODU5ODMyMzQsImxhc3RJZCI6NjcwMDk3MDQ5NDA5NTM4LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcxOTYxODEyNzMsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTcxNDc4MTEzfQ","siteId":1,"platformId":2}}
+
+<> 2020-04-19T093928.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{"partner_id":"web","timestamp":1587303139498,"param":{"pageSize":20,"pageEvent":1,"pageCallback":"eyJmaXJzdElkIjo2NzA1MDE3ODU5ODMyMzQsImxhc3RJZCI6NjcwMDk3MDQ5NDA5NTM4LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcxOTYxODEyNzMsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTcxNDc4MTEzfQ","siteId":1,"platformId":2}}
+
+<> 2020-04-19T093416.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{"partner_id":"web","timestamp":1587303139498,"param":{"pageSize":20,"pageEvent":1,"pageCallback":"eyJmaXJzdElkIjo2NzA1MDE3ODU5ODMyMzQsImxhc3RJZCI6NjcwMDk3MDQ5NDA5NTM4LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcxOTYxODEyNzMsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTcxNDc4MTEzfQ","siteId":1,"platformId":2}}
+
+<> 2020-04-19T093327.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow?partner_id=web&timestamp=1587302552660&param={'size':'20',  'pageEvent':'1',  'pageCallback': 'eyJmaXJzdElkIjo2NzE2MjMzODYwOTM4MjQsImxhc3RJZCI6NjcwNTEyNjU1MDEzODk2LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyNjQ2MzgzMTEsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTk2ODQ0NjY2fQ',  'siteId': '1' ,  'platformId': '2'}
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+<> 2020-04-19T093059.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow?partner_id=web&timestamp=1587302552660&size=20&pageEvent=1&platformId=2&siteId=1&pageCallback=eyJmaXJzdElkIjo2NzE2MjMzODYwOTM4MjQsImxhc3RJZCI6NjcwNTEyNjU1MDEzODk2LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyNjQ2MzgzMTEsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTk2ODQ0NjY2fQ
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+<> 2020-04-19T092933.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow?partner_id=web&timestamp=1587302552660&param={size: 20,  pageEvent: 1,  pageCallback: 'eyJmaXJzdElkIjo2NzE2MjMzODYwOTM4MjQsImxhc3RJZCI6NjcwNTEyNjU1MDEzODk2LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyNjQ2MzgzMTEsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTk2ODQ0NjY2fQ',  siteId: 1 ,  platformId: 2}
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+<> 2020-04-19T092756.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow?partner_id=web&timestamp=1587302552660&param={size: 20 pageEvent: 1 pageCallback: "eyJmaXJzdElkIjo2NzE2MjMzODYwOTM4MjQsImxhc3RJZCI6NjcwNTEyNjU1MDEzODk2LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyNjQ2MzgzMTEsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTk2ODQ0NjY2fQ" siteId: 1 platformId: 2}
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+<> 2020-04-19T092641.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow?partner_id=web&timestamp=1587302552660&param={ize: 20 pageEvent: 1 pageCallback: "eyJmaXJzdElkIjo2NzE2MjMzODYwOTM4MjQsImxhc3RJZCI6NjcwNTEyNjU1MDEzODk2LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyNjQ2MzgzMTEsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTk2ODQ0NjY2fQ" siteId: 1 platformId: 2}
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+<> 2020-04-19T092515.200.json
+
+###
+
+POST https://gateway.36kr.com/api/mis/nav/newsflash/flow?partner_id=web&timestamp=1587302552660&param={ize: 20 pageEvent: 1 pageCallback: "eyJmaXJzdElkIjo2NzE2MjMzODYwOTM4MjQsImxhc3RJZCI6NjcwNTEyNjU1MDEzODk2LCJmaXJzdENyZWF0ZVRpbWUiOjE1ODcyNjQ2MzgzMTEsImxhc3RDcmVhdGVUaW1lIjoxNTg3MTk2ODQ0NjY2fQ" siteId: 1 platformId: 2}
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-04-19T092430.200.json
+
+###
+
 POST https://gateway.36kr.com/api/mis/nav/newsflash/flow?partner_id=web
 Accept: */*
 Cache-Control: no-cache
